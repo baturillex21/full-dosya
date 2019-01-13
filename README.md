@@ -1,1 +1,1 @@
-# full-dosya
+bütün dosyalar
