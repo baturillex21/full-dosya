@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Üye Girişi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="üyegirisi.css" />
+    <link rel="stylesheet" href="AnasayfaCSS.css">
+    <script src="üyegirisi.js"></script>
+    <script src="eventler.js"></script>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+    <link rel='stylesheet prefetch' href='style.css'> 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body onload="start()">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="menu">
+            <li class="nav-item active">
+              <a class="nav-link" href="Anasayfa.html">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="üyegirisi.html">Üye Girişi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="hakkımızda ksımı/hakkımızda.html" >Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="bizeulasın.html" >Bize Ulaşın</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="artvin/artvin.html" >Artvin  </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Giresun1/Giresun.html" >Giresun      </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Giresun1/trabzon.html" >Trabzon     </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="rize/rize.html" >Rize     </a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      
+      <div class="sosyalmedya">
+      <img src="https://i.hizliresim.com/al0Rl2.png"id="sosyalmedya" class="img-fluid" alt="Responsive image">
+      </div>
+      <div class="container">
+
+
+            <form>
+                    <div class="form-group e-mail">
+                        <label for="exampleInputEmail1">E-Posta</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Postanızı Giriniz.">
+                        <small id="emailHelp" class="form-text text-muted">E-Postanızı asla başkasıyla paylaşmayacağız.</small>
+                    </div>
+                   
+            </form>
+                
+            <div class="passaword">
+                 <label for="inputPassword5">Şifre</label>
+                <input type="password" placeholder="Şifre" id="inputPassword5 " class="form-control " aria-describedby="passwordHelpBlock" style="width: 25%;">
+            </div>
+               
+            <div class="benihatirla">
+                    <div class="form-check mb-2 mr-sm-2">
+                            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                            <label class="form-check-label" for="inlineFormCheck">
+                              Beni Hatırla
+                            </label>
+                            
+                          </div>
+            </div>
+                <button class="btn btn-primary kayıtolbutonu" onclick="login()">giriş yap</button>
+
+
+
+
+                <form class="needs-validation kayıtol" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">Adınız</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Adınızı yazınız"  required>
+      <div class="valid-feedback">
+        Başarılı
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Soyadınız</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Soyadınızı yazınız"  required>
+      <div class="valid-feedback">
+        Başarılı
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Kullanıcı adı</label>
+      <div class="input-group">
+        
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Kullanıcı adınızı yazınız" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Lütfen uygun bir kullanıcı adı giriniz.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Şehir</label>
+      <form method="POST">
+        <select id="ulkeler" onchange="sehirleriGetir()" style="width: 100%;"></select>
+        
+      </form>
+      
+        
+      
+      <div class="invalid-feedback">
+        Yaşadığınız şehri yazınız.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">İlçe</label>
+      <form method="POST">
+        <select id="ilce" onchange="ilceleriGetir()" style="width: 100%;"></select>
+      </form>
+    
+      <div class="invalid-feedback">
+        Yaşadığınız ilçeyi yazınız
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Doğum Tarihi</label>
+      <input type="text" class="form-control" id="validationCustom05" placeholder="Doğum Tarihi" required>
+      <div class="invalid-feedback">
+        Doğum tarihinizi yazınız
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input kayıtsartlari"  style ="margin-top:-3px;margin-left: -43px;"type="checkbox" value="" id="invalidCheck" required>
+      
+      
+    </div>
+  </div>
+  <button class="btn btn-primary kayıtolbutonu" type="submit">Kayıt Ol</button>
+</form>
+
+
+            <div id="pencerekodu"><label for="pencere" class="dugme">
+              Kullanım Şartları
+              </label><input type="checkbox" class="Pencereac" id="pencere" name="pencere"></input><label class="pencere">
+              1-) Sitemizde hiçbir şekilde kayıt olurken vermiş olduğunuz bilgiler paylaşılmaz !<br>
+              2-) Hiçbir üyemiz ile kişisel bilgilerinizi(telefon numaranızı ,kredi kartı bilgileriniz vb paylaşmayınız.)<br>
+              3-) Kendini admin olarak tanıtan ve sizden ücret talep eden vs şeyleri talep eden kişileri yönetime bildiriniz.<br>
+              4-) Sitemizde hiçbir şekilde ücret talep edilmez.<br>
+              5-) Sitemize 12 ay boyunca hiç giriş yapmazsanız üyeliğiniz silinecektir.<br>
+              6-) Şartlarımızı kabul ediyorsanız ve okuduysanız onaylayınız.
+              <label for="pencere" class="dugme" name="kapat">Kapat</label></label></div>
+      </div>
+              <div class="card text-white bg-primary mb-3" id="bannerkart1" style="max-width:84rem;left: 3px;top: 76px;">
+                <div class="card-header" id="bizi">Bizi takip ettiğiniz için teşekkür ederiz:)</div>
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text" id="bizi">Yakında yeni şehirler ile birlikte karşınızda olacağız takipte kalmanız dileğiyle.</p>
+                </div>
+              </div>
+</body>
+</html>

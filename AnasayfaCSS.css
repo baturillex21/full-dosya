@@ -1,0 +1,161 @@
+body {
+     background-color: #e7e7e7!important;
+     
+ }
+ video { 
+    position: fixed; 
+    right: 0; 
+    bottom: 0; 
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto; 
+    z-index: -100; 
+    background-size: cover; 
+    overflow: hidden;
+    }  
+#not1{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+    font-size: 13px;
+    margin: 0 auto;
+}
+#sosyalmedya{
+    height: 60px;
+    float: right;
+    position: relative;
+    top: -79px;
+}
+#hersey{
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 27%;
+    padding-top: 30px;
+}
+#slayt{
+    padding-left: 500px;
+    padding-top: 107px;
+}
+
+#carouselExampleIndicators{
+    margin-top: 300px;
+}
+
+.giresun{
+    margin-left: 492px;
+    margin-top: 10px;
+}
+#hosgeldiniz{
+    background: none;
+    margin-top: -30px;
+    font-size: 15px;
+    
+}
+#hosgeldin1{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bold;
+    opacity: 0.8;
+}
+#hosgeldin3{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 57px;
+    opacity: 0.8;
+}
+#fakat{
+    font-size: 16px;
+    font-weight: 300;
+}
+.muzikcal{
+    left: -5px;
+    position: absolute;
+    top: 0px;
+}
+.rizemp4{
+    position: absolute;
+    top: 0px;
+    left:455px;
+}
+.trabzonmp4{
+    position: absolute;
+    top: 6px;
+    left: 455px;
+}
+.giresunmp4{
+    position: absolute;
+    top: 0px;
+    left: 455px;
+}
+.artvinmp4{
+    position: absolute;
+    top: -3px;
+    left: 455px; 
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 165px;
+}
+.banner{
+    background: white;
+    height: 440px;
+    
+}
+.hakkımızdakısmı{
+    color:black;
+    font-size: 13px;
+    background: white;
+    width: 50%;
+}
+.bizeulasınkısmı{
+    float: right;
+    
+}
+#btn{
+    margin-left: 420px;
+    margin-top: 150px;
+}
+#bannerkart1{
+    background-color: beige!important;
+}
+#bizi{
+    color:black;
+    text-align: center;
+}
+#loading1{
+    margin-left: 580px;
+    margin-top: 8px;
+    height: 1px;
+}
+#timedate {
+    border-left: 3px solid yellow;
+    padding: 20px;
+    height: 157px;
+    font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align:left;
+    width: 50%;
+    margin: 2px auto;
+    color:black;
+    position: absolute;
+    top: 109px;
+    left: 950px;
+   
+  }
+  .card_radius{
+  width: 18rem;
+  left:2px;
+  background: beige; 
+  border-radius: 58px;
+  }
+  .rizevideo{
+    width: 600px;
+    margin-left: 433px;
+    margin-top: -354px;
+  }

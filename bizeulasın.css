@@ -1,0 +1,56 @@
+body {
+    background-color: #e7e7e7!important;
+    
+    
+    
+}
+
+#not1{
+   margin-left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+   font-size: 13px;
+   margin: 0 auto;
+}
+#sosyalmedya{
+   height: 60px;
+   float: right;
+   position: relative;
+   top: -55px;
+}
+#hersey{
+   font-size: 30px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 27%;
+   padding-top: 30px;
+}
+#slayt{
+   padding-left: 500px;
+   padding-top: 107px;
+}
+
+#carouselExampleIndicators{
+   margin-top: 300px;
+}
+
+#timedate {
+    border-left: 3px solid yellow;
+    padding: 20px;
+    height: 157px;
+    font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align:left;
+    width: 50%;
+    margin: 2px auto;
+    color:black;
+    position: absolute;
+    top: 86px;
+    left: 950px;
+   
+  }
+  .blur img {filter:alpha(opacity=100); -moz-opacity:1.0; opacity:1.0; border:0;}
+.blur:hover img {filter:alpha(opacity=30); -moz-opacity:0.3; opacity:0.3;border:0;}
+.bizeulasın{
+    margin-top: 30px;
+}
