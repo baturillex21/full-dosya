@@ -1,0 +1,38 @@
+[
+    {
+    "giresunotel" : "1-) New jasmin Otel",
+    "otelbilgisi" : "Şehir Merkezine 4 km uzaklıkta",
+    "otelbilgisi2" : "Yemek Dahil Değil !",
+    "otelfiyat" : "1 Gecelik Konaklama 313 TL"
+},
+
+{
+    "giresunotel" : "2-) Kittur Otel",
+    "otelbilgisi" : "Şehir Merkezine 4 km uzaklıkta",
+    "otelbilgisi2" : "Yemek Dahil Değil !",
+    "otelfiyat" : "1 Gecelik Konaklama 175 TL"
+},
+
+{
+    "giresunotel" : "3-) Aripsas Hotel",
+    "otelbilgisi" : "Şehir Merkezine 0.8 km uzaklıkta", // aripsastan kahvaltı dahili silme
+    "otelbilgisi2" : "Sadece 3 Oda Kaldı !",
+    "otelfiyat" : "1 Gecelik Konaklama 252 TL"
+},
+
+{
+    "giresunotel" : "4-) Yalı Türk Otel",
+    "otelbilgisi" : "Plaja 1 dakikalık mesafe", // yalı türkten oda sayısını silme
+    "otelbilgisi2" : "Kahvaltı dahil !",
+    "otelfiyat" : "1 Gecelik Konaklama 90 TL"
+},
+
+{
+    "giresunotel" : "5-) Hilton Ordu Hampton by",
+    "otelbilgisi" : "Şehir Merkezine 44,6 km uzaklıkta",
+    "otelbilgisi2" : "Kahvaltı Dahil ",
+    "otelfiyat" : "1 Gecelik Konaklama 181 TL"
+}
+
+]
+
