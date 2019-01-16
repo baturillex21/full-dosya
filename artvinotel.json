@@ -1,0 +1,38 @@
+[
+    {
+    "artvinotel" : "1-) Otel Heyamo",
+    "otelbilgisi" : "Şehir merkezine 115,5 km uzaklıkta, Hopa",
+    "otelbilgisi2" : "Kahvaltı dahil! Ücretsiz iptal",
+    "otelfiyat" : "1 Gecelik Konaklama 92 TL"
+},
+
+{
+    "artvinotel" : "2-) Agara Pansiyon",
+    "otelbilgisi" : "Şehir merkezine 70,7 km uzaklıkta, Yusufeli",
+    "otelbilgisi2" : "Kahvaltı Dahil Değil !",
+    "otelfiyat" : "1 Gecelik Konaklama 175 TL"
+},
+
+{
+    "artvinotel" : "3-) Otel Barcelona Yusufeli",
+    "otelbilgisi" : "Şehir merkezine 59,4 km uzaklıkta, Yusufeli", // barcelonadan kahvaltı dahili silme
+    "otelbilgisi2" : "Odaların çoğu boş !",
+    "otelfiyat" : "1 Gecelik Konaklama 194 TL"
+},
+
+{
+    "artvinotel" : "4-) Eliya Pansiyon Restoran",
+    "otelbilgisi" : "Şehir merkezine 71,9 km uzaklıkta, Yusufeli", // eliyadan  oda sayısını silme
+    "otelbilgisi2" : "Kahvaltı dahil !",
+    "otelfiyat" : "1 Gecelik Konaklama 348 TL"
+},
+
+{
+    "artvinotel" : "5-) Pinar Kir Evi",
+    "otelbilgisi" : "Şehir merkezine 46,9 km uzaklıkta, Arhavi",  //pinardan oda sayınısı silme
+    "otelbilgisi2" : "Kahvaltı Dahil ",
+    "otelfiyat" : "1 Gecelik Konaklama 240 TL"
+}
+
+]
+
