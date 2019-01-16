@@ -1,0 +1,40 @@
+[
+    {
+    "artvinotel" : "1-) Ramada Plaza Hotel & Spa",
+    "otelbilgisi" : "Şehir Merkezine 34.7 km uzaklıkta,Trabzon",
+    "otelbilgisi2" : "Kahvaltı dahil! ",
+    "otelfiyat" : "1 Gecelik Konaklama 519 TL"
+},
+
+{
+    "artvinotel" : "2-) Sezginler Otel",
+    "otelbilgisi" : "Şehir merkezine 121,8 km uzaklıkta, Uzungöl", // sezginler otel oda sayılı silinmeyecek.
+    "otelbilgisi2" : "Kahvaltı Dahil Değil !",
+    "otelfiyat" : "1 Gecelik Konaklama 175 TL"
+},
+
+{
+    "artvinotel" : "3-) Hotel Horon Trabzon",
+    "otelbilgisi" : "Şehir merkezine 59,4 km uzaklıkta, Yusufeli", // barcelonadan kahvaltı dahili silme
+    "otelbilgisi2" : "Odaların çoğu boş !",
+    "otelfiyat" : "1 Gecelik Konaklama 194 TL"
+},
+
+{
+    "artvinotel" : "4-) Hotel Feza Trabzon",
+    "otelbilgisi" : "Şehir merkezine 26,3 km uzaklıkta, Trabzon Merkezi", // fezadan  kahvaltıyı silme
+    "otelbilgisi2" : "Sadece 1 oda kaldı !",
+    "otelfiyat" : "1 Gecelik Konaklama 26 TL"
+},
+
+{
+    "artvinotel" : "5-) Sanli Hotel Hammam & SPA",
+    "otelbilgisi" : "Şehir merkezine 28,8 km uzaklıkta,Trabzon",  //sanli hotel oda sayınısı silme
+    "otelbilgisi2" : "Kahvaltı Dahil ",
+    "otelfiyat" : "1 Gecelik Konaklama 84 TL"
+}
+
+
+
+]
+
