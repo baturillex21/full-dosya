@@ -1,0 +1,38 @@
+[
+    {
+    "giresunotel" : "1-) Grand 53 Hotel",
+    "otelbilgisi" : "Şehir Merkezine 78.4 km uzaklıkta,Rize",
+    "otelbilgisi2" : "Kahvaltı Dahil Değil !",
+    "otelfiyat" : "1 Gecelik Konaklama 167 TL"
+},
+
+{
+    "giresunotel" : "2-) Tanura Bungalows",
+    "otelbilgisi" : "Şehir merkezine 16,3 km uzaklıkta, Çamlıhemşin",
+    "otelbilgisi2" : "Kahvaltı Dahil Değil !",
+    "otelfiyat" : "1 Gecelik Konaklama 232 TL"
+},
+
+{
+    "giresunotel" : "3-) Manzara Butik Otel",
+    "otelbilgisi" : "Şehir merkezine 20,9 km uzaklıkta, Çamlıhemşin", // manzara butikten kahvaltı dahili silme
+    "otelbilgisi2" : "Sadece 2 Oda Kaldı !",
+    "otelfiyat" : "1 Gecelik Konaklama 377 TL"
+},
+
+{
+    "giresunotel" : "4-) Ayder Umit Otel",
+    "otelbilgisi" : "Şehir merkezine 30,1 km uzaklıkta, Ayder", // ayder umit'ten oda sayısını silme
+    "otelbilgisi2" : "Kahvaltı dahil !",
+    "otelfiyat" : "1 Gecelik Konaklama 290 TL"
+},
+
+{
+    "giresunotel" : "5-) Ramada Plaza Rize",
+    "otelbilgisi" : "Şehir merkezine 30,2 km uzaklıkta, Rize", // ramada plazadan oda sayısını silme
+    "otelbilgisi2" : "Kahvaltı Dahil ",
+    "otelfiyat" : "1 Gecelik Konaklama 299 TL"
+}
+
+]
+
